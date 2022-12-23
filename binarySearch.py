@@ -1,12 +1,12 @@
 
 def binary_search(search, target, length):
-    '''
+    """
     performs a binary search on passed data
     :param search: haystack
     :param target: needle
     :param length: length of data to search (ie. haystack)
     :return: found target ('middle') OR bool (False)
-    '''
+    """
     first = 0
     last = length - 1
     while first <= last:
