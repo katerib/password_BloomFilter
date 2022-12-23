@@ -18,7 +18,7 @@ All bits in a bloom filter's bit array are set to 0 when created. Hash functions
 
 Probability of false positives (`p`) according to `n` number of elements and a bit array size of `m`:
 
-<div style="text-align: center;"><https://github.com/katerib/bloomFilter/blob/master/Images/false_positive_rate.png?raw=true" width="450" alt=""></div>
+<div style="text-align: center;"><img src="https://github.com/katerib/bloomFilter/blob/master/Images/false_positive_rate.png?raw=true" width="450" alt=""></div>
 
 ## Requirements
 
