@@ -1,4 +1,4 @@
-# Bloom Filter
+# Bloom Filters: Password Checker
 
 A [bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) is a space-efficient probabilistic data structure based on hashing. It is used to check whether a specific element is present in a set.
 
@@ -40,3 +40,9 @@ The program imports a list of passwords from `rockyou.txt` to generate the initi
 At the command prompt, enter `py bloom.py [text file name]`
 
 The argument `[text file name]` must contain a valid filename for a .txt file. An example file `dictionary.txt` is provided in the repository.
+
+## Example Output
+
+The following output is the result of the user inputting the `dictionary.txt` file to compare against `rockyou.txt`:
+
+<div style="text-align: center;"><img src="https://github.com/katerib/bloomFilter/blob/master/Images/bloomFilterTestResults.png?raw=true" width="450" alt=""></div>
