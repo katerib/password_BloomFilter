@@ -4,7 +4,7 @@ A [bloom filter](https://en.wikipedia.org/wiki/Bloom_filter) is a space-efficien
 
 ## bloom.py
 
-Elements are added to the bloom filter using the SHA-256 hash function. The bloom filter is created using a list of 14,341,564 leaked passwords from `rockyou.txt`. Then, the file passed as an argument in the command line (eg. 'dictionary.txt') is used to lookup values to test whether they exist in the bloom filter. If the element does not exist in the bloom filter, the program outputs 'no'. Otherwise, the program prints 'maybe' and validates the element's presence at a later step. The program then verifies the results and prints a report containing statistics for true/false positives/negatives and the time it took for the program to run.
+Elements are added to the bloom filter using the SHA-256 hash function. The bloom filter is created using a list of 14,341,564 leaked passwords from `rockyou.txt`. Then, the file passed as an argument in the command line (eg. 'dictionary.txt') is used to lookup values to test whether they exist in the bloom filter. If the element does not exist in the bloom filter, the program outputs 'no'. Otherwise, the program prints 'maybe' and validates the element's presence after completing the lookup. The program then verifies the results and prints a report containing statistics for true and false positives/negatives as well as the time it took for the program to run.
 
 ### Calculations
 
